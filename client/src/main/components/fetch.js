@@ -26,7 +26,7 @@ export function useData(props) {
 
 function getData(props) {
   const URL =
-    "https://sheets.googleapis.com/v4/spreadsheets/1JTKUDwlY5NfHhKxMLDh5pMiAmZPXybjTqDvMvZZQvoQ/values:batchGet?ranges=Sheet1&majorDimension=ROWS&key=AIzaSyBS3eu0OnvXESI1lFH5Hx4gjv_2-nguCqI";
+    "https://sheets.googleapis.com/v4/spreadsheets/**************************************************************************************";
 
   return fetch(URL)
     .then(res => res.json())
